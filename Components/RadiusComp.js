@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, SafeAreaView, TextInput } from "react-native";
 
 const RadiusComp = ({ navigation, route }) => {
-  const [radius, setRadius] = useState(500);
+  const [radius, setRadius] = useState("500");
 
   return (
     <SafeAreaView>
